@@ -174,7 +174,7 @@ graph LR
 |-------|-------|-------------|
 | **Phase 1** 🔴 | Current | Separate databases, custom API sync between SPOQ & Forms |
 | **Phase 2** 🟠 | Transition | Master API + auto-sync with legacy apps |
-| **Phase 3** 🟢 | Target | All apps use the API directly |
+| **Phase 3** 🟢 | Target | All apps use the API directly + CDC as safety net |
 
 ### Visual Timeline
 
