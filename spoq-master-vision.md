@@ -172,7 +172,7 @@ graph LR
 
 | Phase | State | Description |
 |-------|-------|-------------|
-| **Phase 1** 🔴 | Current | Separate databases, no sync |
+| **Phase 1** 🔴 | Current | Separate databases, custom API sync between SPOQ & Forms |
 | **Phase 2** 🟠 | Transition | Master API + auto-sync with legacy apps |
 | **Phase 3** 🟢 | Target | All apps use the API directly |
 
@@ -330,7 +330,7 @@ graph TB
 | Automation | Description |
 |------------|-------------|
 | 📧 **Auto-notifications** | When job completes → Email client automatically |
-| 📊 **CRM Sync** | New client → Create in Odoo |
+| 📊 **Odoo Integration** | Job completed → Validate quote in Odoo |
 | 🤖 **AI Assistant** | "Schedule an EPC inspection for client X" |
 | 📋 **Reporting** | Daily job summary → Slack channel |
 
