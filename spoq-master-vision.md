@@ -42,7 +42,7 @@ graph TB
 
 | Issue | Impact |
 |-------|--------|
-| 🔄 **Data silos** | Same client exists differently in each system |
+| 🔄 **Data silos** | Same job exists differently in each system |
 | ⏱️ **No real-time sync** | Changes take time to propagate |
 | 🔧 **Hard to maintain** | Every new app needs custom integrations |
 | 🚫 **No partner access** | External partners can't connect easily |
@@ -80,6 +80,8 @@ graph TB
     style API fill:#4caf50,color:#fff
     style DB fill:#2196f3,color:#fff
 ```
+
+> **Important:** SPOQ and Forms continue to operate independently with their own databases. The Master API syncs data automatically in the background — no changes to existing workflows.
 
 ### Key Benefits
 
